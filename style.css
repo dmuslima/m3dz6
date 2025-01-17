@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto", serif;
+}
+.header{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #F3D7B7;
+    padding-top: 22px;
+}
+.nav{
+    width: 1340px;
+    height: 24px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+}
+.nav ul li{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.06px;
+    letter-spacing: 1px;
+    color: #333333;
+    transition: all 0.3s;
+}
+.nav ul li:hover{
+    font-weight: 900;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+.header-content-text{
+    width: 464px;
+    height: 367px;
+    margin: 130px 216px 257px 50px;
+}
+.header-content-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 47px;
+}
+.button{
+    width: 193px;
+    height: 51px;
+    background-color: #0A775F;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    align-content: center;
+    color: white;
+    margin-top: 47px;
+    margin-right: 271px;
+    border: none;
+    
+}
+.header-content{
+    display: flex;
+}
+.section{
+    width: 1444px;
+    height: 1798px;
+    margin: 0 auto;
+    border: 2px solid rgb(211, 208, 208);
+}
+.img{
+    width: 710px;
+    height: 694px;
+    margin-top: 130px;
+    position: relative;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+    margin-top: 108px;
+}
+.img2{
+    margin: 24px 0px 517px 128px;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    right: 1050px;
+    top: 80px;
+    z-index: 1;
+    transform: rotate(0.96turn);
+    animation-name: image;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+@keyframes image{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.section-content{
+    width: 1117px;
+    height: 1500px;
+    margin: 42px 163px 89px 163px;
+}
+.box{
+    width: 1117px;
+    height: 375px;
+    display: flex;
+}
+.box h3{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56.25px;
+    color: #333333;
+    margin: 121px 0px 10px 117px;
+}
+.box p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #333333;
+    margin: 0px 30px 120px 117px;
+}
+.box img:hover{
+    animation-name: imgg;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+
+@keyframes imgg{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1.3,1.3);
+    }
+}
+.footer{
+    background-color: #F3D7B7;
+    width: 1440px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.footer ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.footer ul li{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.06px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+.ul2{
+    gap: 30px;
+    margin-left: 331px;
+}
+.logo2{
+    margin-right: 254px;
+}
